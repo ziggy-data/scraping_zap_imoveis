@@ -4,9 +4,9 @@ Neste projeto estou fazendo web scrapping no site Zap-Imoveis, ETL, análise de 
 
 Objetivos para fazer nesse projeto:
 
-* Scrapping do zap imoveis :red_circle:
-* Tratamento de dados :x:
-* Disponibilizar o conteúdo em: .csv :x:
+* Scrapping do zap imoveis :heavy_check_mark:
+* Tratamento de dados :heavy_check_mark:
+* Disponibilizar o conteúdo em: .csv :heavy_check_mark:
 * Visualizações dos dados em gráficos com seaborn :x:
 * análise estatística de dados :x:
 * Dashboard interativa com PowerBI :x:
