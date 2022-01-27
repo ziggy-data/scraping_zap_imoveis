@@ -12,4 +12,4 @@ Objetivos para fazer nesse projeto:
 * Dashboard interativa com PowerBI
 * Praticar o conteúdo em Spark
 * Tentar montar um modelo preditivo de valor dos imóveis
-* Na espera de mais idéias para implementar
+* Na espera de mais ideias para implementar
