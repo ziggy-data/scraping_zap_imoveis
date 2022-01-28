@@ -1,5 +1,5 @@
 # scrapping_zap_imoveis
-Neste projeto estou fazendo web scrapping no site Zap-Imoveis, ETL, análise de dados e dashboard 
+Neste projeto estou fazendo web scrapping de apartamentos em todo o Brasil no site Zap-Imoveis, ETL, análise de dados e dashboard. 
 
 
 Objetivos para fazer nesse projeto:
