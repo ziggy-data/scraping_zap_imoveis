@@ -1,4 +1,4 @@
-# scrapping_zap_imoveis
+# scrapping Zap Imoveis
 Neste projeto estou fazendo web scrapping de apartamentos em todo o Brasil no site Zap-Imoveis, ETL, análise de dados e dashboard. 
 
 O notebook "Zap-imoveis" é responsável pelo scrapping de dados. Neste caso ele está especializado em fazer 3 diferentes dados, sendo: 
