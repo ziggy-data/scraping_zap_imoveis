@@ -24,7 +24,7 @@ Realiza scrapping de 400 páginas (aceita alterações), possui tratamento de ex
 * Dataset-casas-rj.csv : possui registros de 9600 casas no território carioca.
 
 
-Objetivos para fazer nesse projeto:
+# Objetivos para fazer nesse projeto:
 
 * Scrapping do zap imoveis :heavy_check_mark:
 * Tratamento de dados :heavy_check_mark:
