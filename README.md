@@ -1,6 +1,28 @@
 # scrapping_zap_imoveis
 Neste projeto estou fazendo web scrapping de apartamentos em todo o Brasil no site Zap-Imoveis, ETL, análise de dados e dashboard. 
 
+O notebook "Zap-imoveis" é responsável pelo scrapping de dados. Neste caso ele está especializado em fazer 3 diferentes dados, sendo: 
+
+* Uma amostra de dados geral de casas no Brasil
+* Uma amostra de dados geral de apartamentos no Brasil  
+* Uma amostra de dados de casas no Rio de Janeiro  
+
+## Explicação dos notebooks:
+
+### Notebook: Zap-imoveis
+Esse notebook possui 2 tipos de tratamento de dados, sendo:
+
+Realiza scrapping de 400 páginas (aceita alterações), possui tratamento de exceções com erro de url ou site inacessível e utilizando 3 tipos de links diferentes com diferentes facilidades de acesso. 
+
+* As duas primeiras amostras de dados não possui distinção entre uma amostra máxima ou mínima de especificações.
+* A ultima possui um tratamento com a distinção dos imóveis e também uma redundância se não ocorrer uma distinção .
+
+## Detalhe das amostras:
+
+* Dataset-casas-geral.csv : possui registros de 9600 casas no território brasileiro.
+* Dataset-ap-geral.csv : possui registros de 8400 apartamentos no território brasileiro.
+* Dataset-casas-rj.csv : possui registros de 9600 casas no território carioca.
+
 
 Objetivos para fazer nesse projeto:
 
