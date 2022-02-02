@@ -41,6 +41,5 @@ O modelo apresentou um acerto de 43% em relação ao preços dos imóveis consid
 * Visualizações dos dados em gráficos com seaborn :x:
 * análise estatística de dados :x:
 * Dashboard interativa com PowerBI :x:
-* Praticar o conteúdo em Spark :x:
 * Tentar montar um modelo preditivo de valor dos imóveis :heavy_check_mark:
 * Na espera de mais ideias para implementar :x:
