@@ -74,6 +74,6 @@ https://app.powerbi.com/reportEmbed?reportId=6d421255-0e0d-4e0c-adb8-04778dee68f
 * Disponibilizar o conteúdo em: `.csv` :heavy_check_mark:
 * Visualizações dos dados em gráficos com seaborn :x:
 * análise estatística de dados :x:
-* Dashboard interativa com PowerBI :x:
+* Dashboards interativas com PowerBI :heavy_check_mark:
 * Tentar montar um modelo preditivo de valor dos imóveis :heavy_check_mark:
 * Na espera de mais ideias para implementar :x:
