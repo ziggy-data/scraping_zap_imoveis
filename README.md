@@ -59,9 +59,13 @@ valor por m² = "R$ " & round(sum([Valor]) / sum([Área (m²)]),2)
 ## Link para acessar o Dashboard:
 https://app.powerbi.com/reportEmbed?reportId=cd532ea4-be16-4822-8477-f18724660c65&autoAuth=true&ctid=da49a844-e2e3-40af-86a6-c3819d704f49&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D
 
- ![Imagem da dashboard](/dashboard/dashboard-rj.png)
+ ![Imagem da dashboard](/dashboard/imagem/dashboard-rj.png)
 
+## Link para acessar o dashboard
 
+https://app.powerbi.com/reportEmbed?reportId=6d421255-0e0d-4e0c-adb8-04778dee68fd&autoAuth=true&ctid=da49a844-e2e3-40af-86a6-c3819d704f49&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D
+
+ ![Imagem da dashboard](/dashboard/imagem/dashboard-apt-geral.png)
 
 # Objetivos para fazer nesse projeto:
 
