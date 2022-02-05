@@ -72,7 +72,7 @@ https://app.powerbi.com/reportEmbed?reportId=6d421255-0e0d-4e0c-adb8-04778dee68f
 * Scrapping do zap imoveis :heavy_check_mark:
 * Tratamento de dados :heavy_check_mark:
 * Disponibilizar o conteúdo em: `.csv` :heavy_check_mark:
-* Visualizações dos dados em gráficos com seaborn :x:
+* Visualizações dos dados em gráficos com seaborn :heavy_check_mark:
 * análise estatística de dados :x:
 * Dashboards interativas com PowerBI :heavy_check_mark:
 * Tentar montar um modelo preditivo de valor dos imóveis :heavy_check_mark:
