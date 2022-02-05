@@ -33,6 +33,36 @@ O modelo apresentou um acerto de 43% em relação ao preços dos imóveis consid
 
 (Os dados neste repositório foram armazenados em 01/02/2022)
 
+## Dashboards:
+
+### Dashboard RJ  -  Apartamentos:
+
+Neste projeto estou estudando dados de apartamentos que estão à venda pelo site Zap imóveis no momento da granulação e assim facilitando o acesso aos dados do site e para análise. 
+
+
+Ele nos traz dados de valor imobiliário em maioria das ruas no Rio De Janeiro e assim permitindo analisar.
+ 
+Alguns itens usados atráves de web scrapping: Tipo de venda, Área, Bairro, Rua, Condomínio, IPTU, Quartos, Vagas, Valor, Banheiros
+
+Dados extraídos: Cidade e valor por m² 
+
+* Métricas utilizadas:
+
+ ```
+valor por m² = "R$ " & round(sum([Valor]) / sum([Área (m²)]),2)
+ ```
+ 
+ ```
+ atualizacao = "Atualizado em " & SELECTEDVALUE('Atualização'[Data e hora])
+ ```
+
+## Link para acessar o Dashboard:
+https://app.powerbi.com/reportEmbed?reportId=cd532ea4-be16-4822-8477-f18724660c65&autoAuth=true&ctid=da49a844-e2e3-40af-86a6-c3819d704f49&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D
+
+ ![Imagem da dashboard](/dashboard/dashboard-rj.png)
+
+
+
 # Objetivos para fazer nesse projeto:
 
 * Scrapping do zap imoveis :heavy_check_mark:
