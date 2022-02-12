@@ -1,21 +1,23 @@
 # scrapping Zap Imoveis
 Neste projeto estou fazendo web scrapping de apartamentos em todo o Brasil no site Zap-Imoveis, ETL, análise de dados e dashboard. 
 
-O notebook "Zap-imoveis" é responsável pelo scrapping de dados. Neste caso ele está especializado em fazer 3 diferentes dados, sendo: 
+O notebook "Zap-imoveis" é responsável pelo scrapping de dados. Neste caso ele está especializado em fazer 4 diferentes dados, sendo: 
 
 * Uma amostra de dados geral de casas no Brasil
 * Uma amostra de dados geral de apartamentos no Brasil  
 * Uma amostra de dados de casas no Rio de Janeiro  
+* Uma amostra de dados geral de apartamentos no Brasil
 
 ## Explicação dos notebooks:
 
 ### Notebook: Zap-imoveis
 Esse notebook possui 2 tipos de tratamento de dados, sendo:
 
-Realiza scrapping de 400 páginas (aceita alterações), possui tratamento de exceções com erro de url ou site inacessível e utilizando 3 tipos de links diferentes com diferentes facilidades de acesso. 
+Realiza scrapping de 400 páginas (aceita alterações), possui tratamento de exceções com erro de url ou site inacessível, utilizando 3 tipos de links diferentes com diferentes facilidades de acesso e uma extração de informação de parte da descrição com Regular Expression. 
 
+* Todos os scrapy possuem tratamentos de RegEx diferentes seguindo a demanda de cada dataset.
 * As duas primeiras amostras de dados não possui distinção entre uma amostra máxima ou mínima de especificações.
-* A ultima possui um tratamento com a distinção dos imóveis e também uma redundância se não ocorrer uma distinção .
+* A penultima possui um tratamento com a distinção dos imóveis e também uma redundância se não ocorrer uma distinção .
 
 ### Notebook: regressao-linear
 
@@ -71,9 +73,10 @@ https://app.powerbi.com/reportEmbed?reportId=6d421255-0e0d-4e0c-adb8-04778dee68f
 
 * Scrapping do zap imoveis :heavy_check_mark:
 * Tratamento de dados :heavy_check_mark:
+* Extrair informação de texto com RegEx :heavy_check_mark:
 * Disponibilizar o conteúdo em: `.csv` :heavy_check_mark:
 * Visualizações dos dados em gráficos com seaborn :heavy_check_mark:
 * análise estatística de dados :x:
 * Dashboards interativas com PowerBI :heavy_check_mark:
 * Tentar montar um modelo preditivo de valor dos imóveis :heavy_check_mark:
-* Na espera de mais ideias para implementar :x:
+
