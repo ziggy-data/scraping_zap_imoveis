@@ -31,9 +31,10 @@ O modelo apresentou um acerto de 43% em relação ao preços dos imóveis consid
 
 * `dataset-casas-geral.csv` : possui registros de 9600 casas no território brasileiro.
 * `dataset-ap-geral.csv` : possui registros de 8400 apartamentos no território brasileiro.
-* `dataset-casas-rj.csv` : possui registros de 9600 casas no território carioca.
+* `dataset-casas-rj.csv` : possui registros de 7200 casas no território carioca.
+* `dataset-apt-geral.csv` : possui registros de 7200 casas no território carioca.
 
-(Os dados neste repositório foram armazenados em 01/02/2022)
+(Os dados neste repositório foram armazenados em 12/02/2022)
 
 ## Dashboards:
 
