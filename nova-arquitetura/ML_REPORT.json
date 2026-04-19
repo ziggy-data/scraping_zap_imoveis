@@ -1,0 +1,77 @@
+{
+  "data_treino": "2026-04-19 07:46",
+  "modelo": "GradientBoostingRegressor",
+  "amostras": 2842,
+  "features": 82,
+  "r2_score": 0.7507,
+  "oportunidades_detectadas": 825,
+  "feature_importances": [
+    {
+      "feature": "area_m2",
+      "importance": 0.4816
+    },
+    {
+      "feature": "condominio_R$",
+      "importance": 0.1674
+    },
+    {
+      "feature": "latitude",
+      "importance": 0.0603
+    },
+    {
+      "feature": "zona_encoded",
+      "importance": 0.0511
+    },
+    {
+      "feature": "bairro_encoded",
+      "importance": 0.0371
+    },
+    {
+      "feature": "iptu_R$",
+      "importance": 0.0276
+    },
+    {
+      "feature": "escritura_valorizacao_pct",
+      "importance": 0.0264
+    },
+    {
+      "feature": "suites",
+      "importance": 0.0228
+    },
+    {
+      "feature": "score_lifestyle",
+      "importance": 0.0198
+    },
+    {
+      "feature": "banheiros",
+      "importance": 0.0131
+    },
+    {
+      "feature": "vagas",
+      "importance": 0.0111
+    },
+    {
+      "feature": "quartos",
+      "importance": 0.0097
+    },
+    {
+      "feature": "tag_coworking",
+      "importance": 0.0085
+    },
+    {
+      "feature": "tem_varanda_gourmet",
+      "importance": 0.0076
+    },
+    {
+      "feature": "media_ofertas_por_rua_no_bairro",
+      "importance": 0.0069
+    }
+  ],
+  "parametros": {
+    "n_estimators": 200,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "min_samples_leaf": 3,
+    "subsample": 0.8
+  }
+}
